@@ -49,7 +49,7 @@ echo -e $MESAJ
 echo -e $BOSLUK
 echo "⌛ I DOWNLOAD FİLES ⌛"
 echo -e $BOSLUK
-git clone https://github.com/LavandarProjects/Lavaninstaller
+git clone https://github.com/LavanderProjects/Lavaninstaller
 clear
 echo -e $Lavan
 echo -e $BOSLUK
