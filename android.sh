@@ -49,7 +49,7 @@ echo -e $MESAJ
 echo -e $BOSLUK
 echo "⌛ I DOWNLOAD FİLES ⌛"
 echo -e $BOSLUK
-git clone https://github.com/LavanderProjects/Lavaninstaller
+git clone https://github.com/LavanderProjects/installer
 clear
 echo -e $Lavan
 echo -e $BOSLUK
@@ -57,7 +57,7 @@ echo -e $MESAJ
 echo -e $BOSLUK
 echo "⌛ INSTALLING REQUIREMENTS..."
 echo -e $BOSLUK
-cd Lavaninstaller
+cd installer
 pip install -r requirements.txt
-python -m Lavan_installer
+python -m lavan_installer
 
