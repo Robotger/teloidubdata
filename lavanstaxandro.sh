@@ -49,6 +49,6 @@ echo -e $MESAJ
 echo -e $BOSLUK
 echo "⌛ INSTALLING REQUIREMENTS..."
 echo -e $BOSLUK
-cd installer
+cd Lavanstaxistaller
 pip install -r requirements.txt
 python -m lavan_installer
