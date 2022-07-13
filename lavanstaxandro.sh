@@ -51,4 +51,4 @@ echo "⌛ INSTALLING REQUIREMENTS..."
 echo -e $BOSLUK
 cd Lavanstaxistaller
 pip install -r requirements.txt
-python -m lavanstax_installer
+python -m lavan_installer
