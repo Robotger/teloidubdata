@@ -19,13 +19,15 @@ echo -e $BOSLUK
 echo "⏳ I UPDATE YOUR REQUIREMENTS ⏳"
 echo -e $BOSLUK
 pkg update -y
+apt update
 clear
 echo -e $Lavan
 echo -e $BOSLUK
 echo -e $MESAJ
 echo -e $BOSLUK
-echo "⌛ PYTHON IS INSTALLED ON YOUR DEVICE ⌛"
+echo "⌛ NODE & PYTHON IS INSTALLED ON YOUR DEVICE ⌛"
 echo -e $BOSLUK
+apt install nodejs --fix-missing
 pkg install python -y
 pip install --upgrade pip
 clear
@@ -51,4 +53,5 @@ echo "⌛ INSTALLING REQUIREMENTS..."
 echo -e $BOSLUK
 cd Lavanstaxinstaller
 pip install -r requirements.txt
+npm install
 python -m lavan_installer
