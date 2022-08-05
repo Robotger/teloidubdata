@@ -21,7 +21,7 @@ scoop install git python@3.8
 Write-Output("⌛ İnstalling installer…")
 
 git clone https://github.com/LavanderProjects/Lavanstaxinstaller
-Set-Location Lavanstaxİnstaller
+Set-Location Lavanstaxinstaller
 python3 -m pip install -r requirements.txt
 python3 -m lavan_installer
 
